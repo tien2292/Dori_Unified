@@ -1,0 +1,31 @@
+<svg width="420" height="120" viewBox="0 0 420 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="120" fill="#0f1115"/>
+
+  <!-- Frame -->
+  <rect x="30" y="30" width="80" height="80" rx="18"
+        fill="none" stroke="#4da3ff" stroke-width="3"/>
+
+  <!-- Lattice -->
+  <g stroke="#4da3ff" stroke-width="2" opacity="0.6">
+    <line x1="50" y1="40" x2="50" y2="100"/>
+    <line x1="70" y1="40" x2="70" y2="100"/>
+    <line x1="90" y1="40" x2="90" y2="100"/>
+
+    <line x1="40" y1="50" x2="100" y2="50"/>
+    <line x1="40" y1="70" x2="100" y2="70"/>
+    <line x1="40" y1="90" x2="100" y2="90"/>
+  </g>
+
+  <!-- Active node -->
+  <circle cx="70" cy="70" r="6" fill="#4da3ff"/>
+
+  <!-- Text -->
+  <text x="130" y="56" font-family="Inter, Arial, sans-serif"
+        font-size="28" fill="#ffffff" font-weight="600">
+    Dori Unified
+  </text>
+  <text x="130" y="82" font-family="Inter, Arial, sans-serif"
+        font-size="14" fill="#9aa4b2">
+    GPU Compute • WebGPU
+  </text>
+</svg>
